@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #042037;
+    font-family: 'Slabo 27px', serif;
+}
+body a {
+    color: #042037;
+    text-decoration: none;
+}
+body a:hover {
+    color: #042037;
+}
+body a:visited {
+    color: #042037;
+    text-decoration: none;
+}
+body a:active {
+    color: #042037;
+    text-decoration: none;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+body .top-section {
+    background-color: #F2F6F8;
+    padding: 60px 0;
+}
+body .top-section h1 {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+body .top-section p {
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+body .top-section img {
+
+}
+body .center-section {
+    background-color: #718EA4;
+    padding: 60px 0;
+}
+body .center-section h2 {
+    text-align: center;
+    margin: 0;
+}
+body .bottom-section {
+    padding: 60px 0;
+}
+body .bottom-section h2 {
+    text-align: center;
+    margin: 0;
+}
+body .center-section hr.midsplit {
+    width: 70%;
+    margin: 30px auto 60px auto;
+    border-color: #042037;
+}
+body .bottom-section .item-list li {
+    background-color: #718EA4;
+    /*color: #ffffff;
+}
+body .bottom-section .item-list li a {
+    color: #ffffff;
+}
+body .bottom-section .item-list li a:hover {
+    color: #ffffff;
+}
+body .bottom-section .item-list li a:visited {
+    color: #ffffff;
+}
+body .bottom-section .item-list li a:active {
+    color: #ffffff;*/
+}
+body .item-list {
+    padding: 30px 0;
+    margin: 0 0 15px 0;
+    text-align: center;
+    list-style-type: none;
+}
+body .item-list li {
+    width: 25%;
+    margin: 20px 10% 0 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: inline-block;
+}
+body .item-list li .subtext {
+    display: block;
+    font-size: 12px;
+}
+body .item-list li:nth-child(3n) {
+    margin: 0;
+}
+body .footer .footer-items {
+    margin: 60px 0 30px 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+body .footer .footer-items li {
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 12px;
+    padding: 0 15px 0 0;
+    margin: 0 10px 0 0;
+    line-height: 1;
+}
+body .footer .footer-items li:last-of-type {
+    border-right: 0;
+    padding: 0;
+    margin: 0;
+}
